@@ -35,5 +35,5 @@ module.exports = function(){
 
     app.use(express.static('./public'));
 
-    return app;np
+    return app;
 }
