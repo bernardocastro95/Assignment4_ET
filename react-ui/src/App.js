@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   const [data, setData] = useState({});
   const [showLoading, setShowLoading] = useState(true);
-  const apiUrl = "http://localhost:3000/run";
+  const apiUrl = "http://localhost:3000";
 
   useEffect(() => {
     const fetchData = async () => {
@@ -77,3 +77,4 @@ function App() {
   );
       
 }
+export default App;
